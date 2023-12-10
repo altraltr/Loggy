@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'Loggy_Example' do
-  pod 'Loggy', :path => '../'
+  pod 'Loggy', :path => './'
 
   target 'Loggy_Tests' do
     inherit! :search_paths

@@ -1,0 +1,16 @@
+PODS:
+  - Loggy (0.1.0)
+
+DEPENDENCIES:
+  - Loggy (from `../`)
+
+EXTERNAL SOURCES:
+  Loggy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Loggy: 18f31dacb2d14dea6ef1283e7d8b950126112106
+
+PODFILE CHECKSUM: 1695baeb6816c8084df5c382bb43bc5fba287b0f
+
+COCOAPODS: 1.11.3

@@ -7,18 +7,42 @@
 //
 
 import UIKit
+import Loggy
 
 class ViewController: UIViewController {
+    
+    let l = Loggy.shared
+    
+    let showLogButton: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Show Log", for: .normal)
+        button.addTarget(self, action: #selector(showLogButtonTapped), for: .touchUpInside)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        printx("I am app!")
+        printx("Hello from viewDidLoad!", types: [.lifecycle])
+        
+        printx("2+2 = 4 ?")
+        expectedPrintx((2+2), 4)
+        expectedPrintx(true, true, true)
+        printx("2+2 != 5", types: [.error])
+        expectedPrintx((2+2), 5)
+        expectedPrintx(true, false, true)
+        
+        view.addSubview(showLogButton)
+        NSLayoutConstraint.activate([
+            showLogButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            showLogButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func showLogButtonTapped() {
+        let vc = LoggyViewController(l.returnFullCurrentLog())
+        present(vc, animated: true)
     }
-
 }
 
