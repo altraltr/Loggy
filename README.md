@@ -1,4 +1,4 @@
-# Loggy
+# Loggyx
 
 [![CI Status](https://img.shields.io/travis/altraltr/Loggy.svg?style=flat)](https://travis-ci.org/altraltr/Loggy)
 [![Version](https://img.shields.io/cocoapods/v/Loggy.svg?style=flat)](https://cocoapods.org/pods/Loggy)
@@ -17,7 +17,7 @@ Loggy is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Loggy'
+pod 'Loggyx'
 ```
 
 ## Author
@@ -26,4 +26,4 @@ altraltr, altraltr@proton.me
 
 ## License
 
-Loggy is available under the MIT license. See the LICENSE file for more info.
+Loggyx is available under the MIT license. See the LICENSE file for more info.
