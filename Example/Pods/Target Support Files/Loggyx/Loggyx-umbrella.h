@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double LoggyVersionNumber;
-FOUNDATION_EXPORT const unsigned char LoggyVersionString[];
+FOUNDATION_EXPORT double LoggyxVersionNumber;
+FOUNDATION_EXPORT const unsigned char LoggyxVersionString[];
 

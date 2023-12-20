@@ -1,0 +1,6 @@
+framework module Loggyx {
+  umbrella header "Loggyx-umbrella.h"
+
+  export *
+  module * { export * }
+}

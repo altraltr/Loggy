@@ -7,83 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A45475CA32E9C38CCED0DF123D6C667 /* Pods-Loggy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572E8679DFEDAD4EF37606AC43601BA /* Pods-Loggy_Example-dummy.m */; };
-		33598935A9B9636867C71C927CCB50A1 /* Pods-Loggy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AEDBD65BD8E9E94F9A4484BF748DCD /* Pods-Loggy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46905C1D584BD211043B2078FC35E477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6289B082CC5580F05740EFB2AF347618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6C40080A8ADB964A3F6E45EA05103028 /* LogxProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF163A0873944AB446B762E75F0B71CA /* LogxProtocol.swift */; };
-		76FC5A9A5083E24457E00C60D6EB5D58 /* LoggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5DBCF0AECAEEC4461DFB57B2A36151 /* LoggyViewController.swift */; };
+		0AF32D8E5FCDCB7A405F01E7364C2823 /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F03DBD81F72D1FF8EC8654A493DDE37 /* LogTableViewCell.swift */; };
+		26404AC5381CC824DC6153E0F009532B /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B20CAE709D6240172FAA3F60FCC5A /* Wrappers.swift */; };
+		2DA2BF4062441445FA0771E1959DB847 /* Loggyx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9977362BBEA6DD4A49FF2E4559C1F51F /* Loggyx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370A586AEC56F87FDD9F39FCA4D4EAF8 /* LogxProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD96BEC9F2408B6932BA742E9EAC2D5 /* LogxProtocol.swift */; };
+		5938C4B3A01EFF536EE8AC3B2F146E64 /* Pods-Loggy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AEDBD65BD8E9E94F9A4484BF748DCD /* Pods-Loggy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6888CFAEAD425662B8708784F19427FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7360B633ED7C22A6460A6540F8B44C7A /* Pods-Loggy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6572E8679DFEDAD4EF37606AC43601BA /* Pods-Loggy_Example-dummy.m */; };
 		872BC484D8220047E8CCC99D0C71E43C /* Pods-Loggy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA5D0BDE39BBE57B0C9ACA62F9EEBE5 /* Pods-Loggy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		946D4F281669C11A078D6F53A97F6D03 /* LogxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62EAD8647486A92F73D741AF1FD3625 /* LogxType.swift */; };
-		9CF668C6F60DDCAE238C535A921AC9AE /* Loggy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D4401D8CF76474DC047A5A0C8E65B /* Loggy.swift */; };
-		AF7BD7261978CC4DEEC89DDD5DCB2AD9 /* Loggy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CFB9B4EB57733ED9D5E3D36A53626B /* Loggy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7724E50F52E4A12095664C23F213ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A90BD3B45FCDD3408EEF050DE6A6C6A /* LoggyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5170BBFC34623B7EAB24F53942CAAE3 /* LoggyViewController.swift */; };
+		92778FEE6E0281C18BC5E973300DBD81 /* Logx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9646823509FD407ADC5A00817AB93AC9 /* Logx.swift */; };
+		A4DC08822CD6593E2226CD1753179127 /* LogxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FDD9ADBB2E483C7CD0CBD6FD4BB33 /* LogxType.swift */; };
+		A5A85BD517C152C89A3BC4D0552AEE2E /* Loggy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517ADB7B27FAACA101574ED08F846746 /* Loggy.swift */; };
+		AC8D22272D3B4FE645E2B6428A0A4C37 /* LoggyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813D94F4D221B24EAD6474B95C2E6CFB /* LoggyProtocol.swift */; };
+		AF53293FF9076009D26FC9D67DF17896 /* Loggyx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D18C00A5ECE42EBD7C187A25DD49F /* Loggyx-dummy.m */; };
+		B7724E50F52E4A12095664C23F213ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		BCF8EE4DBF24E038E344CF6019A12901 /* Pods-Loggy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04198176C144E3818107412D0BF2752E /* Pods-Loggy_Tests-dummy.m */; };
-		C8A74969297FF8F7A4C800A28294FD36 /* LoggyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783AC61402BC57BD1BEE91B8D4F30CE /* LoggyProtocol.swift */; };
-		C9102F1EDC9FE4968C656151D20F58BD /* Loggy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 722E05D875616568454AE3D93F99D416 /* Loggy-dummy.m */; };
-		DB7528B063E73EFD1F7ADDAF1B0EEBB7 /* Logx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94388EC5216CA5780EA0DBD5A132AE86 /* Logx.swift */; };
-		E02B27983F267404A2021AFA6B736D9A /* Wrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FAB91E8B7AC0F889F14BD730900984 /* Wrappers.swift */; };
-		EF779582AC980D4E73B636A0F3B29EFC /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F659E4BA42ECA1C5F166BC2886F374D /* LogTableViewCell.swift */; };
+		BEAE59DD88A0979F688A693AB765FC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		F3839014C7F732196FEB107E8B5A7356 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		64749A11D25D1A5B3BE3C37E6A663498 /* PBXContainerItemProxy */ = {
+		16E7F24A3C7B59CAAAD6194AA8CAC56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 619848C5563A17A790A5CE9F9C42C41F;
+			remoteInfo = Loggyx;
+		};
+		DD5AA61C8CE6B35FA1BFC525798DEFCC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 66B868606942E50929D979EAFBBB12CB;
 			remoteInfo = "Pods-Loggy_Example";
 		};
-		C7A89BF6A1D5EB8C50D2D55C31B3949F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 629529FAA60AFAA29515964D8B1B60C5;
-			remoteInfo = Loggy;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C6483CE9BF156822E684FEAF6633EF /* Loggyx-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loggyx-prefix.pch"; sourceTree = "<group>"; };
 		04198176C144E3818107412D0BF2752E /* Pods-Loggy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Loggy_Tests-dummy.m"; sourceTree = "<group>"; };
-		06CCD451C4260128A8657632A292332D /* Loggy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Loggy.modulemap; sourceTree = "<group>"; };
+		0751EE258D3E6BD3A34D7B1EE7DF8C4E /* Loggyx-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loggyx-Info.plist"; sourceTree = "<group>"; };
 		0AE59AA99137C1834FA80B62199A51C3 /* Pods-Loggy_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Loggy_Tests-Info.plist"; sourceTree = "<group>"; };
 		0EDA5D376F4B04622B9329DE9DB63A66 /* Pods-Loggy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Loggy_Example.modulemap"; sourceTree = "<group>"; };
-		0F659E4BA42ECA1C5F166BC2886F374D /* LogTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTableViewCell.swift; path = Loggy/Classes/LogTableViewCell.swift; sourceTree = "<group>"; };
+		172D18C00A5ECE42EBD7C187A25DD49F /* Loggyx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loggyx-dummy.m"; sourceTree = "<group>"; };
 		22D4D5CA0AB53E3CE3B923E10CF9A557 /* Pods-Loggy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Loggy_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2F0CF20BBA82136B5E60E97524C25F27 /* Pods-Loggy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Loggy_Example.release.xcconfig"; sourceTree = "<group>"; };
 		34BB886E36CA3178B8332B91F5CACA00 /* Pods-Loggy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Loggy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D821DAC1EC945D69030F157DC7D9591 /* Loggy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loggy-prefix.pch"; sourceTree = "<group>"; };
+		416B20CAE709D6240172FAA3F60FCC5A /* Wrappers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wrappers.swift; path = Loggy/Classes/Wrappers.swift; sourceTree = "<group>"; };
+		423637DB771460147B5FAA2399FC6BBD /* Loggyx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loggyx.release.xcconfig; sourceTree = "<group>"; };
 		44068212C0E109E9481C283B70FCE103 /* Pods-Loggy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Loggy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		448A30F230A8E36ABFC4857EFFCF3C41 /* Pods-Loggy_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Loggy_Example-Info.plist"; sourceTree = "<group>"; };
+		4A6FDD9ADBB2E483C7CD0CBD6FD4BB33 /* LogxType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogxType.swift; path = Loggy/Classes/Models/LogxType.swift; sourceTree = "<group>"; };
+		517ADB7B27FAACA101574ED08F846746 /* Loggy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggy.swift; path = Loggy/Classes/Loggy.swift; sourceTree = "<group>"; };
+		5BD96BEC9F2408B6932BA742E9EAC2D5 /* LogxProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogxProtocol.swift; path = Loggy/Classes/Protocols/LogxProtocol.swift; sourceTree = "<group>"; };
 		5FA5E12E810B8A7806BBDF9DE8EA8742 /* Pods-Loggy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Loggy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6572E8679DFEDAD4EF37606AC43601BA /* Pods-Loggy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Loggy_Example-dummy.m"; sourceTree = "<group>"; };
-		70EC7152DD088800561626FB8D5759CB /* Loggy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Loggy-Info.plist"; sourceTree = "<group>"; };
-		722E05D875616568454AE3D93F99D416 /* Loggy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loggy-dummy.m"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		77CFB9B4EB57733ED9D5E3D36A53626B /* Loggy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loggy-umbrella.h"; sourceTree = "<group>"; };
-		7D1D4401D8CF76474DC047A5A0C8E65B /* Loggy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggy.swift; path = Loggy/Classes/Loggy.swift; sourceTree = "<group>"; };
+		761A4D021A21DACDEA61DACDF83386C0 /* Loggyx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Loggyx.modulemap; sourceTree = "<group>"; };
+		7F03DBD81F72D1FF8EC8654A493DDE37 /* LogTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTableViewCell.swift; path = Loggy/Classes/LogTableViewCell.swift; sourceTree = "<group>"; };
+		813D94F4D221B24EAD6474B95C2E6CFB /* LoggyProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggyProtocol.swift; path = Loggy/Classes/Protocols/LoggyProtocol.swift; sourceTree = "<group>"; };
 		87159B7FBC30D104E9105956FE04E23A /* Pods-Loggy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Loggy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		874AFB6857166E7260B6646654EC95A8 /* Pods-Loggy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Loggy_Example-frameworks.sh"; sourceTree = "<group>"; };
-		917FB21A1648293F1F0954D4AF117F83 /* Pods_Loggy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loggy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92FC22D800C31B0640EC99854E97D6FF /* Loggy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Loggy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94388EC5216CA5780EA0DBD5A132AE86 /* Logx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Logx.swift; sourceTree = "<group>"; };
-		98A28306D4975AA85472E04C5B307FA9 /* Loggy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loggy.debug.xcconfig; sourceTree = "<group>"; };
-		9A5DBCF0AECAEEC4461DFB57B2A36151 /* LoggyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggyViewController.swift; path = Loggy/Classes/LoggyViewController.swift; sourceTree = "<group>"; };
+		8E7B94786E71D638C8F121AA94A8B34F /* Loggyx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loggyx.debug.xcconfig; sourceTree = "<group>"; };
+		917FB21A1648293F1F0954D4AF117F83 /* Pods-Loggy_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Loggy_Tests"; path = Pods_Loggy_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9646823509FD407ADC5A00817AB93AC9 /* Logx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logx.swift; path = Loggy/Classes/Models/Logx.swift; sourceTree = "<group>"; };
+		9977362BBEA6DD4A49FF2E4559C1F51F /* Loggyx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loggyx-umbrella.h"; sourceTree = "<group>"; };
 		9B1E60A1A81FEEF4A9EAC88176F6CA72 /* Pods-Loggy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Loggy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3DEA160F1C7D276B502E701EE5BA654 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AF163A0873944AB446B762E75F0B71CA /* LogxProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogxProtocol.swift; sourceTree = "<group>"; };
-		B1B1914A32BED97120ED85CE29C60DA4 /* Loggy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Loggy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BCA5D0BDE39BBE57B0C9ACA62F9EEBE5 /* Pods-Loggy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Loggy_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BDF0C2CF8892D3EBB12ADB52F3AE1746 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C8A4F87AA6D07C09655B4354BB56F038 /* Loggy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loggy.release.xcconfig; sourceTree = "<group>"; };
-		D8085AFF9380A8B7709740F1A37DE035 /* Pods_Loggy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loggy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E62EAD8647486A92F73D741AF1FD3625 /* LogxType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogxType.swift; sourceTree = "<group>"; };
+		C5170BBFC34623B7EAB24F53942CAAE3 /* LoggyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggyViewController.swift; path = Loggy/Classes/LoggyViewController.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D8085AFF9380A8B7709740F1A37DE035 /* Pods-Loggy_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Loggy_Example"; path = Pods_Loggy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C98125A74FDB3584606A5FB7CF753D /* Pods-Loggy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Loggy_Tests.modulemap"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1CD1441141FDDD153C690EE54186582 /* Loggyx */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loggyx; path = Loggyx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F24CAD27FE769E57C3B4BF5B471BEBB8 /* Pods-Loggy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Loggy_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F783AC61402BC57BD1BEE91B8D4F30CE /* LoggyProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoggyProtocol.swift; sourceTree = "<group>"; };
 		F9AEDBD65BD8E9E94F9A4484BF748DCD /* Pods-Loggy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Loggy_Example-umbrella.h"; sourceTree = "<group>"; };
-		F9FAB91E8B7AC0F889F14BD730900984 /* Wrappers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Wrappers.swift; path = Loggy/Classes/Wrappers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,25 +94,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CB21F2747F7BABDC013DA6A82C65942 /* Frameworks */ = {
+		39EF6ECE403A1226FAE7CEB0D2E0A179 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6289B082CC5580F05740EFB2AF347618 /* Foundation.framework in Frameworks */,
+				6888CFAEAD425662B8708784F19427FA /* Foundation.framework in Frameworks */,
+				F3839014C7F732196FEB107E8B5A7356 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C064008C376F236E55CAD46974D45C54 /* Frameworks */ = {
+		8F6F4D7C67BFF0384CB76425BC580569 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46905C1D584BD211043B2078FC35E477 /* Foundation.framework in Frameworks */,
+				BEAE59DD88A0979F688A693AB765FC45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BBFE4C09051790F8920A9D0018DCF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CD1441141FDDD153C690EE54186582 /* Loggyx */,
+				D8085AFF9380A8B7709740F1A37DE035 /* Pods-Loggy_Example */,
+				917FB21A1648293F1F0954D4AF117F83 /* Pods-Loggy_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D5B8C25523EA6E46A4F5C87DAFD6879 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				761A4D021A21DACDEA61DACDF83386C0 /* Loggyx.modulemap */,
+				172D18C00A5ECE42EBD7C187A25DD49F /* Loggyx-dummy.m */,
+				0751EE258D3E6BD3A34D7B1EE7DF8C4E /* Loggyx-Info.plist */,
+				01C6483CE9BF156822E684FEAF6633EF /* Loggyx-prefix.pch */,
+				9977362BBEA6DD4A49FF2E4559C1F51F /* Loggyx-umbrella.h */,
+				8E7B94786E71D638C8F121AA94A8B34F /* Loggyx.debug.xcconfig */,
+				423637DB771460147B5FAA2399FC6BBD /* Loggyx.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Loggyx";
+			sourceTree = "<group>";
+		};
 		2D91AB9AE0586C474D9190A9DE475D93 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,71 +156,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		346091869DA8727985E6D993EB513570 /* Protocols */ = {
+		3374EBA3D7B7380351943D001FF22010 /* Loggyx */ = {
 			isa = PBXGroup;
 			children = (
-				F783AC61402BC57BD1BEE91B8D4F30CE /* LoggyProtocol.swift */,
-				AF163A0873944AB446B762E75F0B71CA /* LogxProtocol.swift */,
+				517ADB7B27FAACA101574ED08F846746 /* Loggy.swift */,
+				813D94F4D221B24EAD6474B95C2E6CFB /* LoggyProtocol.swift */,
+				C5170BBFC34623B7EAB24F53942CAAE3 /* LoggyViewController.swift */,
+				7F03DBD81F72D1FF8EC8654A493DDE37 /* LogTableViewCell.swift */,
+				9646823509FD407ADC5A00817AB93AC9 /* Logx.swift */,
+				5BD96BEC9F2408B6932BA742E9EAC2D5 /* LogxProtocol.swift */,
+				4A6FDD9ADBB2E483C7CD0CBD6FD4BB33 /* LogxType.swift */,
+				416B20CAE709D6240172FAA3F60FCC5A /* Wrappers.swift */,
+				1D5B8C25523EA6E46A4F5C87DAFD6879 /* Support Files */,
 			);
-			name = Protocols;
-			path = Loggy/Classes/Protocols;
+			name = Loggyx;
+			path = Loggyx;
 			sourceTree = "<group>";
 		};
-		3B83F33CCB7F1A414456D2A959B38E24 /* Development Pods */ = {
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				46871DF8F689B5DE1CA4017F3F36AA37 /* Loggy */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		46871DF8F689B5DE1CA4017F3F36AA37 /* Loggy */ = {
-			isa = PBXGroup;
-			children = (
-				7D1D4401D8CF76474DC047A5A0C8E65B /* Loggy.swift */,
-				9A5DBCF0AECAEEC4461DFB57B2A36151 /* LoggyViewController.swift */,
-				0F659E4BA42ECA1C5F166BC2886F374D /* LogTableViewCell.swift */,
-				F9FAB91E8B7AC0F889F14BD730900984 /* Wrappers.swift */,
-				693A27EFA6D2DAC94249B0A833E9D98E /* Models */,
-				89074AC3AF3247862E9308A1E79039BB /* Pod */,
-				346091869DA8727985E6D993EB513570 /* Protocols */,
-				7DCB06AB73EC62179ECF00E42F2DA816 /* Support Files */,
-			);
-			name = Loggy;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		693A27EFA6D2DAC94249B0A833E9D98E /* Models */ = {
+		6530C147ECF2F2AD2FCDFC39713F97ED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94388EC5216CA5780EA0DBD5A132AE86 /* Logx.swift */,
-				E62EAD8647486A92F73D741AF1FD3625 /* LogxType.swift */,
+				3374EBA3D7B7380351943D001FF22010 /* Loggyx */,
 			);
-			name = Models;
-			path = Loggy/Classes/Models;
-			sourceTree = "<group>";
-		};
-		7DCB06AB73EC62179ECF00E42F2DA816 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				06CCD451C4260128A8657632A292332D /* Loggy.modulemap */,
-				722E05D875616568454AE3D93F99D416 /* Loggy-dummy.m */,
-				70EC7152DD088800561626FB8D5759CB /* Loggy-Info.plist */,
-				3D821DAC1EC945D69030F157DC7D9591 /* Loggy-prefix.pch */,
-				77CFB9B4EB57733ED9D5E3D36A53626B /* Loggy-umbrella.h */,
-				98A28306D4975AA85472E04C5B307FA9 /* Loggy.debug.xcconfig */,
-				C8A4F87AA6D07C09655B4354BB56F038 /* Loggy.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Loggy";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		815BADFA5BADD66888509C11E4F0630F /* Pods-Loggy_Example */ = {
@@ -205,26 +205,6 @@
 			);
 			name = "Pods-Loggy_Example";
 			path = "Target Support Files/Pods-Loggy_Example";
-			sourceTree = "<group>";
-		};
-		89074AC3AF3247862E9308A1E79039BB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BDF0C2CF8892D3EBB12ADB52F3AE1746 /* LICENSE */,
-				92FC22D800C31B0640EC99854E97D6FF /* Loggy.podspec */,
-				A3DEA160F1C7D276B502E701EE5BA654 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		993262E7C84A6C58AF18367EBEC36F40 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B1B1914A32BED97120ED85CE29C60DA4 /* Loggy.framework */,
-				D8085AFF9380A8B7709740F1A37DE035 /* Pods_Loggy_Example.framework */,
-				917FB21A1648293F1F0954D4AF117F83 /* Pods_Loggy_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C9BC392DA6BA8C58F877687A0E342F50 /* Pods-Loggy_Tests */ = {
@@ -247,29 +227,21 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3B83F33CCB7F1A414456D2A959B38E24 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				993262E7C84A6C58AF18367EBEC36F40 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6530C147ECF2F2AD2FCDFC39713F97ED /* Pods */,
+				0BBFE4C09051790F8920A9D0018DCF65 /* Products */,
 				2D91AB9AE0586C474D9190A9DE475D93 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		90C0E7E6513F56F6C27A8E5B85EB4C36 /* Headers */ = {
+		279C7AD917D69E0CF35E7658E093CBF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33598935A9B9636867C71C927CCB50A1 /* Pods-Loggy_Example-umbrella.h in Headers */,
+				2DA2BF4062441445FA0771E1959DB847 /* Loggyx-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +253,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E49DC43B1B3AE6919DEBFE585FB6142A /* Headers */ = {
+		B3C1BB9B2FA7B7E8E64418A93DE494AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF7BD7261978CC4DEEC89DDD5DCB2AD9 /* Loggy-umbrella.h in Headers */,
+				5938C4B3A01EFF536EE8AC3B2F146E64 /* Pods-Loggy_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,48 +276,48 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D1C5E92BF0BED738EF8DB0370F9C220 /* PBXTargetDependency */,
+				06181EAD45251633430B60D7F4B4500F /* PBXTargetDependency */,
 			);
 			name = "Pods-Loggy_Tests";
 			productName = Pods_Loggy_Tests;
-			productReference = 917FB21A1648293F1F0954D4AF117F83 /* Pods_Loggy_Tests.framework */;
+			productReference = 917FB21A1648293F1F0954D4AF117F83 /* Pods-Loggy_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
-		629529FAA60AFAA29515964D8B1B60C5 /* Loggy */ = {
+		619848C5563A17A790A5CE9F9C42C41F /* Loggyx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33B9F55D0B4F55F9A8138F79485F215F /* Build configuration list for PBXNativeTarget "Loggy" */;
+			buildConfigurationList = BC1F3E0A183DF60D7BF08F64EAB5003F /* Build configuration list for PBXNativeTarget "Loggyx" */;
 			buildPhases = (
-				E49DC43B1B3AE6919DEBFE585FB6142A /* Headers */,
-				CEA7FB6CA3F4A36378C3660A9A3ACB39 /* Sources */,
-				3CB21F2747F7BABDC013DA6A82C65942 /* Frameworks */,
-				E9749C536152CFED6B523E6069FF3A7A /* Resources */,
+				279C7AD917D69E0CF35E7658E093CBF3 /* Headers */,
+				DB3FD3FC1BDB86E56365454A58814B32 /* Sources */,
+				39EF6ECE403A1226FAE7CEB0D2E0A179 /* Frameworks */,
+				82E78CDC616015719B49982EBB1E5ACF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Loggy;
-			productName = Loggy;
-			productReference = B1B1914A32BED97120ED85CE29C60DA4 /* Loggy.framework */;
+			name = Loggyx;
+			productName = Loggyx;
+			productReference = F1CD1441141FDDD153C690EE54186582 /* Loggyx */;
 			productType = "com.apple.product-type.framework";
 		};
 		66B868606942E50929D979EAFBBB12CB /* Pods-Loggy_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7995C27EF7E1A2CBA793DA954472A9C3 /* Build configuration list for PBXNativeTarget "Pods-Loggy_Example" */;
+			buildConfigurationList = FEE9BD9EF9891F130F7AF454C30750E3 /* Build configuration list for PBXNativeTarget "Pods-Loggy_Example" */;
 			buildPhases = (
-				90C0E7E6513F56F6C27A8E5B85EB4C36 /* Headers */,
-				B63BA3FFA24F33DF7183952F8F56E00F /* Sources */,
-				C064008C376F236E55CAD46974D45C54 /* Frameworks */,
-				8139F74458D828B1DEC4BC3566E7A0D2 /* Resources */,
+				B3C1BB9B2FA7B7E8E64418A93DE494AA /* Headers */,
+				C487B959859099FF8FAFF52F67BCDA74 /* Sources */,
+				8F6F4D7C67BFF0384CB76425BC580569 /* Frameworks */,
+				90AC64134156BFD13802EDD01BB13C26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				998E4C7819046ABE22656CC7CAF6F41C /* PBXTargetDependency */,
+				5A8EC6826E18C93DF9A1D24D77C14FC0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Loggy_Example";
 			productName = Pods_Loggy_Example;
-			productReference = D8085AFF9380A8B7709740F1A37DE035 /* Pods_Loggy_Example.framework */;
+			productReference = D8085AFF9380A8B7709740F1A37DE035 /* Pods-Loggy_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -355,12 +327,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1230;
-				TargetAttributes = {
-					629529FAA60AFAA29515964D8B1B60C5 = {
-						LastSwiftMigration = 1230;
-					};
-				};
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -371,11 +338,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 993262E7C84A6C58AF18367EBEC36F40 /* Products */;
+			productRefGroup = 0BBFE4C09051790F8920A9D0018DCF65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				629529FAA60AFAA29515964D8B1B60C5 /* Loggy */,
+				619848C5563A17A790A5CE9F9C42C41F /* Loggyx */,
 				66B868606942E50929D979EAFBBB12CB /* Pods-Loggy_Example */,
 				61033094362A330B324E90AFCA862CBB /* Pods-Loggy_Tests */,
 			);
@@ -383,14 +350,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8139F74458D828B1DEC4BC3566E7A0D2 /* Resources */ = {
+		82E78CDC616015719B49982EBB1E5ACF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9749C536152CFED6B523E6069FF3A7A /* Resources */ = {
+		90AC64134156BFD13802EDD01BB13C26 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,44 +382,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B63BA3FFA24F33DF7183952F8F56E00F /* Sources */ = {
+		C487B959859099FF8FAFF52F67BCDA74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A45475CA32E9C38CCED0DF123D6C667 /* Pods-Loggy_Example-dummy.m in Sources */,
+				7360B633ED7C22A6460A6540F8B44C7A /* Pods-Loggy_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEA7FB6CA3F4A36378C3660A9A3ACB39 /* Sources */ = {
+		DB3FD3FC1BDB86E56365454A58814B32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF668C6F60DDCAE238C535A921AC9AE /* Loggy.swift in Sources */,
-				C9102F1EDC9FE4968C656151D20F58BD /* Loggy-dummy.m in Sources */,
-				C8A74969297FF8F7A4C800A28294FD36 /* LoggyProtocol.swift in Sources */,
-				76FC5A9A5083E24457E00C60D6EB5D58 /* LoggyViewController.swift in Sources */,
-				EF779582AC980D4E73B636A0F3B29EFC /* LogTableViewCell.swift in Sources */,
-				DB7528B063E73EFD1F7ADDAF1B0EEBB7 /* Logx.swift in Sources */,
-				6C40080A8ADB964A3F6E45EA05103028 /* LogxProtocol.swift in Sources */,
-				946D4F281669C11A078D6F53A97F6D03 /* LogxType.swift in Sources */,
-				E02B27983F267404A2021AFA6B736D9A /* Wrappers.swift in Sources */,
+				A5A85BD517C152C89A3BC4D0552AEE2E /* Loggy.swift in Sources */,
+				AC8D22272D3B4FE645E2B6428A0A4C37 /* LoggyProtocol.swift in Sources */,
+				8A90BD3B45FCDD3408EEF050DE6A6C6A /* LoggyViewController.swift in Sources */,
+				AF53293FF9076009D26FC9D67DF17896 /* Loggyx-dummy.m in Sources */,
+				0AF32D8E5FCDCB7A405F01E7364C2823 /* LogTableViewCell.swift in Sources */,
+				92778FEE6E0281C18BC5E973300DBD81 /* Logx.swift in Sources */,
+				370A586AEC56F87FDD9F39FCA4D4EAF8 /* LogxProtocol.swift in Sources */,
+				A4DC08822CD6593E2226CD1753179127 /* LogxType.swift in Sources */,
+				26404AC5381CC824DC6153E0F009532B /* Wrappers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D1C5E92BF0BED738EF8DB0370F9C220 /* PBXTargetDependency */ = {
+		06181EAD45251633430B60D7F4B4500F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Loggy_Example";
 			target = 66B868606942E50929D979EAFBBB12CB /* Pods-Loggy_Example */;
-			targetProxy = 64749A11D25D1A5B3BE3C37E6A663498 /* PBXContainerItemProxy */;
+			targetProxy = DD5AA61C8CE6B35FA1BFC525798DEFCC /* PBXContainerItemProxy */;
 		};
-		998E4C7819046ABE22656CC7CAF6F41C /* PBXTargetDependency */ = {
+		5A8EC6826E18C93DF9A1D24D77C14FC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Loggy;
-			target = 629529FAA60AFAA29515964D8B1B60C5 /* Loggy */;
-			targetProxy = C7A89BF6A1D5EB8C50D2D55C31B3949F /* PBXContainerItemProxy */;
+			name = Loggyx;
+			target = 619848C5563A17A790A5CE9F9C42C41F /* Loggyx */;
+			targetProxy = 16E7F24A3C7B59CAAAD6194AA8CAC56F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -473,7 +440,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Loggy_Tests/Pods-Loggy_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Loggy_Tests/Pods-Loggy_Tests.modulemap";
@@ -484,37 +451,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		287383A9483690B5969F9D6B51A2C7BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98A28306D4975AA85472E04C5B307FA9 /* Loggy.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Loggy/Loggy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Loggy/Loggy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Loggy/Loggy.modulemap";
-				PRODUCT_MODULE_NAME = Loggy;
-				PRODUCT_NAME = Loggy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -537,7 +473,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Loggy_Tests/Pods-Loggy_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Loggy_Tests/Pods-Loggy_Tests.modulemap";
@@ -555,9 +491,9 @@
 			};
 			name = Release;
 		};
-		3F6DBB0E1C022770D10D2A07D70682FC /* Release */ = {
+		66552B2B920BB835A90B163E55A90878 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F0CF20BBA82136B5E60E97524C25F27 /* Pods-Loggy_Example.release.xcconfig */;
+			baseConfigurationReference = F24CAD27FE769E57C3B4BF5B471BEBB8 /* Pods-Loggy_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -571,7 +507,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Loggy_Example/Pods-Loggy_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Loggy_Example/Pods-Loggy_Example.modulemap";
@@ -583,11 +519,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -639,20 +574,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9E5AC8A0514118CAED07B2B957102502 /* Debug */ = {
+		D161EC0D94E3D3B1EDBFECD0C5CD4F9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F24CAD27FE769E57C3B4BF5B471BEBB8 /* Pods-Loggy_Example.debug.xcconfig */;
+			baseConfigurationReference = 2F0CF20BBA82136B5E60E97524C25F27 /* Pods-Loggy_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -666,7 +602,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Loggy_Example/Pods-Loggy_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Loggy_Example/Pods-Loggy_Example.modulemap";
@@ -677,37 +613,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C113D07D58EE16FE8862D316F53CD248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8A4F87AA6D07C09655B4354BB56F038 /* Loggy.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Loggy/Loggy-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Loggy/Loggy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Loggy/Loggy.modulemap";
-				PRODUCT_MODULE_NAME = Loggy;
-				PRODUCT_NAME = Loggy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -768,7 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -781,18 +686,72 @@
 			};
 			name = Debug;
 		};
+		E4B521591624DA7941188FCA47C72E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423637DB771460147B5FAA2399FC6BBD /* Loggyx.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loggyx/Loggyx-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loggyx/Loggyx-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Loggyx/Loggyx.modulemap";
+				PRODUCT_MODULE_NAME = Loggyx;
+				PRODUCT_NAME = Loggyx;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4E3D6D725FFBC3CC9576B78FE4B1CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7B94786E71D638C8F121AA94A8B34F /* Loggyx.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Loggyx/Loggyx-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loggyx/Loggyx-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Loggyx/Loggyx.modulemap";
+				PRODUCT_MODULE_NAME = Loggyx;
+				PRODUCT_NAME = Loggyx;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33B9F55D0B4F55F9A8138F79485F215F /* Build configuration list for PBXNativeTarget "Loggy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				287383A9483690B5969F9D6B51A2C7BC /* Debug */,
-				C113D07D58EE16FE8862D316F53CD248 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -802,11 +761,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7995C27EF7E1A2CBA793DA954472A9C3 /* Build configuration list for PBXNativeTarget "Pods-Loggy_Example" */ = {
+		BC1F3E0A183DF60D7BF08F64EAB5003F /* Build configuration list for PBXNativeTarget "Loggyx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E5AC8A0514118CAED07B2B957102502 /* Debug */,
-				3F6DBB0E1C022770D10D2A07D70682FC /* Release */,
+				F4E3D6D725FFBC3CC9576B78FE4B1CC1 /* Debug */,
+				E4B521591624DA7941188FCA47C72E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -816,6 +775,15 @@
 			buildConfigurations = (
 				20EBDFA4752F5D239FB782B02A2D901E /* Debug */,
 				3C244916351600A56F56A074AAAAF6B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE9BD9EF9891F130F7AF454C30750E3 /* Build configuration list for PBXNativeTarget "Pods-Loggy_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66552B2B920BB835A90B163E55A90878 /* Debug */,
+				D161EC0D94E3D3B1EDBFECD0C5CD4F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

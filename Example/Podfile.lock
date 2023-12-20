@@ -1,16 +1,16 @@
 PODS:
-  - Loggy (0.1.0)
+  - Loggyx (0.1.0)
 
 DEPENDENCIES:
-  - Loggy (from `../`)
+  - Loggyx
 
-EXTERNAL SOURCES:
-  Loggy:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - Loggyx
 
 SPEC CHECKSUMS:
-  Loggy: 18f31dacb2d14dea6ef1283e7d8b950126112106
+  Loggyx: b2e75509af0e7a9630ede64c32e89d1d8c2206eb
 
-PODFILE CHECKSUM: 1695baeb6816c8084df5c382bb43bc5fba287b0f
+PODFILE CHECKSUM: 63094e80f38569b92e8cf835498802042ed78bd4
 
 COCOAPODS: 1.11.3

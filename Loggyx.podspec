@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Loggy'
-  s.version          = '0.1.0'
+  s.name             = 'Loggyx'
+  s.version          = '0.1.1'
   s.summary          = 'Awesome on-device logger.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/altraltr/Loggy'
+  s.homepage         = 'https://github.com/altraltr/Loggyx'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'altraltr' => 'altraltr@proton.me' }
-  s.source           = { :git => 'https://github.com/altraltr/Loggy.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/altraltr/Loggyx.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

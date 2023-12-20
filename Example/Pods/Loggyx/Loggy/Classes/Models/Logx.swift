@@ -11,9 +11,4 @@ public struct Logx: LogxProtocol, Codable {
     public var id = UUID()
     public var text: String
     public var types: [LogxType]
-    
-    public init(text: String, types: LogxType...) {
-        self.text = text
-        self.types = types
-    }
 }
