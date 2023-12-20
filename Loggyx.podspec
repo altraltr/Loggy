@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Loggyx'
-  s.version          = '0.1.1'
+  s.version          = '0.1.0'
   s.summary          = 'Awesome on-device logger.'
 
 # This description is used to generate tags and improve search results.
